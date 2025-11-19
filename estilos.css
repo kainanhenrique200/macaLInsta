@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1c1c;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid #262626;
+    background-color: #1d1c1c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inst-log img {
+    height: 80px;
+}
+.login {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.login button {
+  padding: 7px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #0478e4;
+  color: white;
+}
+
+.login button:last-child {
+  background: transparent;
+  border: 1px solid #868686;
+  background-color: #13101000;
+}
+
+
+.perfil {
+    max-width: 935px;
+    margin: 108px auto 30px;
+    padding: 0 20px;
+    display: flex;
+    gap: 30px;
+}
+.bio a{
+    color: #0478e4;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #262626;
+}
+
+.infoperfil {
+    flex: 1;
+}
+
+.nomeperfil {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.infoperfil span {
+    display: block;
+    margin-top: 8px;
+}
+
+ .tipo-perfil {
+    font-weight: 600;
+    color: #a8a8a8;
+}
+
+.bio {
+    white-space: pre-line;
+}
+
+.opçoes-para-perfil {
+    margin-top: 20px;
+}
+
+.opçoes-para-perfil button {
+    padding: 7px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #0095f6;
+    color: white;
+}
+
+
+
+.destaques {
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #404040;
+}
+
+.destaques img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    border: 3px solid #444343;
+    cursor: pointer;
+}
+
+.postagem {
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    border-bottom: 1px solid #131010;
+    background: #1d1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.postagem img {
+    width: 100%;
+    display: block;
+}
+.icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;          
+  padding: 20px 0;
+}
+
+.icones img {
+  width: 35px;         
+  height: 35px;
+  opacity: 0.8;        
+  cursor: pointer;
+}
